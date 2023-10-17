@@ -98,7 +98,7 @@ const LoginPage = () => {
           <div className="col-span-2">
             <button
               type="submit"
-              className="bg-primary text-white rounded py-2 px-4 hover:bg-blue-600"
+              className="bg-primary text-white rounded py-2 py-4 hover:bg-blue-600"
             >
               Login
             </button>
@@ -109,7 +109,7 @@ const LoginPage = () => {
           <div className="col-span-2 mx-auto">
             <button
               type="button"
-              className="bg-red-500 text-white rounded py-2 px-4 flex items-center justify-center gap-4 hover:bg-red-600 mt-2"
+              className="bg-red-500 text-white rounded py-2 py-4 flex items-center justify-center gap-4 hover:bg-red-600 mt-2"
               onClick={handleGoogleSignIn}
             >
               <FaGoogle /> Sign In with Google
